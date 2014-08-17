@@ -16,6 +16,7 @@ for i in 1..100
     message << "Labs"
   end
  
+  #Prints out the number if no message applies
   if message.empty?
     puts i  
   else 
